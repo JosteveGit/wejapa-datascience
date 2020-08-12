@@ -1,0 +1,10 @@
+def readable_timedelta(days):
+    # insert your docstring here
+    """
+    Calculate the number of weeks and number of days from number of days
+    :param days: The number of days to calculate from
+    :return: The number of weeks and the number of days
+    """
+    weeks = days // 7
+    remainder = days % 7
+    return "{} week(s) and {} day(s)".format(weeks, remainder)
