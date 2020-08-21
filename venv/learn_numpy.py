@@ -111,8 +111,9 @@ def fifth():
     print(x[1:, 1:])
     print(x)
 
+
 def last():
-    #do the last part abeg
+    # do the last part abeg
     pass
 
 
